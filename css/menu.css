@@ -1,0 +1,33 @@
+.menu{
+    display: none;
+
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: var(--white);
+    font: var(--button);
+    text-transform: uppercase;
+}
+
+.menu ul a.is-active{
+    color: var(--purple);
+}
+
+.menu ul a.is-active:hover, .menu ul a.is-active:focus {
+    background-size: 100% 2px;
+}
+
+
+@media screen and (min-width: 768px){
+    .menu{
+        display: block ;
+    }
+}

@@ -1,0 +1,40 @@
+.mensaje{
+      
+        margin-top:  185px;
+        margin-block-end: 185px;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: center;
+}
+.mensaje p.mensaje-personal{
+    
+    font: var(--headline6);
+    line-height: 55px;
+    
+}
+.flecha img{
+    scroll-behavior: smooth ;
+}
+
+.mensaje p.muestra{
+    font: var(--headline5);
+}
+
+@media screen and  (max-width: 768px){
+    .mensaje{
+        margin-top:  40px;
+        margin-block-end: 40px;
+        margin-left: 16px;
+        margin-right: 16px;
+        text-align: center;
+    }
+    .mensaje p.mensaje-personal{
+        font: var(--headline6_reponsive);
+                
+    }
+    
+    .mensaje p.muestra{
+        font: var(--headline5);
+    }
+    
+}

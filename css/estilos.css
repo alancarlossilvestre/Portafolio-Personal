@@ -1,0 +1,55 @@
+@import "./button.css";
+@import "./header.css";
+@import "./button/icon.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./mensaje.css";
+@import "./testimoniales.css";
+@import "./project.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+:root{
+    --fontBase:'Poppins', sans-serif;
+    --headline1: bold 95px/153.71px var(--fontBase);
+    --headline2: bold 59px/95px var(--fontBase);
+    --headline3: bold 48px/77px var(--fontBase);
+    --headline4: bold 34px/55px var(--fontBase); 
+    --headline5: bold 24px/38px var(--fontBase);
+    --headline6: normal 30px/55px var(--fontBase); 
+    --headline6_reponsive: normal 34px/55px var(--fontBase); 
+    --text_testimonial: bold 24px/55px var(--fontBase);
+    --nombre_testimonial: normal 15px/38px var(--fontBase);
+    --body1:  16px/25px var(--fontBase); 
+    --body2:  14px/22px var(--fontBase); 
+    --button:  bold 14px/22px var(--fontBase);
+    --buton-hero: bold 12px/18px var(--fontBase);
+    --caption: 12px/19px var(--fontBase);
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%,
+     rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+     --purple: #310A90;
+     --green: #42E2B8;
+     --white: white;
+}
+html{
+    scroll-behavior: smooth ;
+}
+
+
+body{
+    background: var(--gradient);
+    min-block-size: 100vh;
+    font: var(--body1);
+    color: var(--purple);
+    margin: 0;
+
+}
+
+#trucazo{
+    opacity: 0;
+}
+
+

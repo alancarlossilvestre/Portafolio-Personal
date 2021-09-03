@@ -1,0 +1,73 @@
+.button{
+    background: var( --purple);
+    color: var(--white);
+    font: var(--button);
+    padding-inline-start: 24px ;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border:none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: unset;
+    color: var(--purple);
+    border: 2px solid var(--purple);
+}
+
+.button-hero{
+    background: var( --purple);
+    color: var(--white);
+    font: var(--buton-hero);
+    padding-inline-start: 13px ;
+    padding-inline-end: 13px;
+    padding-block-start: 12px;
+    padding-block-end: 12px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border:none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.button-hero:hover{
+    background: unset;
+    color: var(--purple);
+    border: 2px solid var(--purple);
+}
+
+ .button.is-secondary{
+    background: var( --purple);
+    color: var(--white);
+    border: 2px solid var(--purple);
+
+}
+.button.is-secondary:hover{
+    background: unset;
+    color: var(--purple);
+    font: var(--button);
+    padding-inline-start: 24px ;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border:none;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid var(--purple);
+    cursor: pointer;
+}
+
+
+
+
+
+
